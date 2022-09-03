@@ -1,0 +1,39 @@
+#descripcion{
+    div{
+        div{
+            @extend %caja-flotante;
+            width: 30%;
+            img{
+                width: 70%;
+                margin-left: 10%;
+            }
+        }
+        span{
+            @extend %caja-flotante;
+            width: 60%;
+            margin: 0px 5%;
+        }
+        #contenido{
+            #spotify{
+                @include atributos-componentes(80px, 80px, $color-spotify, 20px 50px);
+                border-radius: 100%;
+                img{
+                    width: 30px;
+                    text-align: center;
+                    margin: 22px 30px;
+                }
+            }
+        }
+    }
+}
+#musica{
+    @extend %caja-flotante;
+    width: 96%;
+    margin: 10px 2%;
+    #canciones{
+        border: none;
+        width: 100%;
+        margin: 0px auto;
+        color: $color-font;
+    }
+}

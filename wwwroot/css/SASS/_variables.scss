@@ -1,0 +1,42 @@
+//colores base del proyecto
+$color-principal: #11191f;
+$color-spotify: #1ed760;
+$color-secundario: #404447;
+$color-font: #525666;
+$color-error: #a71c1c;
+// Valor predeterminado del body
+body{
+    background-color: $color-principal;
+    color: $color-font;
+}
+//eliminar el salto de componentes
+.clear_fix{
+    float: none;
+    clear: both;
+}
+%caja-flotante{
+    display: block;
+    float: left;
+}
+//atributos generales de los componentes
+@mixin atributos-componentes($ancho, $alto, $color-fondo, $margenes){
+    width: $ancho;
+    height: $alto;
+    background-color: $color-fondo;
+    margin: $margenes;
+}
+//sombra para los componentes
+@mixin sombra($color-sombra){
+    box-shadow: 1px -3px 63px -6px $color-sombra;
+    -webkit-box-shadow: 1px -3px 63px -6px $color-sombra;
+    -moz-box-shadow: 1px -3px 63px -6px $color-sombra;
+}
+//creacion de la animacion de los botones de play
+@keyframes btn_play{
+    0% {
+        margin: 20px auto;
+    }
+    100%{
+        margin: 0px auto;
+    }
+}

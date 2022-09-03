@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "nombre": "Un verano sin ti",
+        "artista": "Bad Bunny",
+        "lanzamiento": "6 de mayo de 2022",
+        "imgPrincipal": "https://i.imgur.com/TCTKobQ.jpg",
+        "Spotify": "https://open.spotify.com/album/3RQQmkQEvNCY4prGKE6oc5",
+        "color": "#ac6432",
+        "canciones": [
+            "Moscow Mule",
+            "Despues de la playa",
+            "Me porto bonito",
+            "Un ratito",
+            "Tarot"
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Legendary",
+        "artista": "Daddy Yankee",
+        "lanzamiento": "24 de marzo de 2022",
+        "imgPrincipal": "https://i.imgur.com/Ser8v8b.jpg",
+        "Spotify": "https://open.spotify.com/album/3rlJCPz7s7bTifG57wjFpt",
+        "color": "#bdbdbb",
+        "canciones": [
+            "Legendary",
+            "Campeon",
+            "Remix",
+            "X ultima vez",
+            "Para siempre"
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Colores",
+        "artista": "J Balvin",
+        "lanzamiento": "19 de marzo de 2020",
+        "imgPrincipal": "https://i.imgur.com/RUmrH7a.jpg",
+        "Spotify": "https://open.spotify.com/album/2mX8ktJoWvyidWBU9U8Jis",
+        "color": "#f0534e",
+        "canciones": [
+            "Amarillo",
+            "Azul",
+            "Rojo",
+            "Rosa",
+            "Verde"
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "YHLQMDLG",
+        "artista": "Bad Bunny",
+        "lanzamiento": "29 de febrero de 2020",
+        "imgPrincipal": "https://i.imgur.com/9IIqHEb.jpg",
+        "Spotify": "https://open.spotify.com/album/5lJqux7orBlA1QzyiBGti1",
+        "color": "#162336",
+        "canciones": [
+            "La dificil",
+            "La santa",
+            "La zona",
+            "Que malo",
+            "Yo perreo sola"
+        ]
+    },
+    {
+        "id": 5,
+        "nombre": "El sistema",
+        "artista": "Zion & Lennox",
+        "lanzamiento": "22 de julio de 2021",
+        "imgPrincipal": "https://i.imgur.com/t9s0ca2.jpg",
+        "Spotify": "https://open.spotify.com/artist/21451j1KhjAiaYKflxBjr1/discography/album?pageUri=spotify:album:0kDg1ceIubRuJHXyIRGrBM",
+        "color": "#27102c",
+        "canciones": [
+            "Estrella",
+            "Loco",
+            "No me llama",
+            "Diosa",
+            "Te mueves"
+        ]
+    },
+    {
+        "id": 6,
+        "nombre": "Viceversa",
+        "artista": "Rauw Alejandro",
+        "lanzamiento": "25 de junio de 2021",
+        "imgPrincipal": "https://i.imgur.com/QuMPA96.jpg",
+        "Spotify": "https://open.spotify.com/album/2Nt6MDJXfoxQ22tIQgWXIh",
+        "color": "#2f0072",
+        "canciones": [
+            "Todo de ti",
+            "Nubes",
+            "Desesperados",
+            "Curame",
+            "Brazilera"
+        ]
+    }
+]

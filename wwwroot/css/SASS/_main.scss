@@ -1,0 +1,54 @@
+#vacio{
+    @include atributos-componentes(60%, 150px, $color-principal, 10% auto);
+    @include sombra($color-error);
+    border: solid 1px $color-error;
+    border-radius: 10px;
+    div{
+        h3{
+            text-align: center;
+            color: $color-font;
+            margin: 5% 0px;
+        }
+    }
+}
+#box_album:hover{
+    background-color: $color-principal;
+    color: $color-spotify;
+    border: solid 1px $color-spotify;
+    @include sombra($color-spotify);
+    div{
+        div{
+            #play{
+                display: block;
+                animation-name: btn_play;
+                animation-duration: 1000ms;
+            }
+        }
+    }
+}
+#box_album{
+    @extend %caja-flotante;
+    @include atributos-componentes(20%, 400px, $color-principal, 3% 6%);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    border: solid 1px white;
+    div{
+        div{
+            img{
+                width: 200px;
+                margin-bottom: 15px;
+            }
+            #play{
+                @include atributos-componentes(80px, 80px, $color-spotify, 0px auto);
+                display: none;
+                border-radius: 100%;
+                img{
+                    width: 30px;
+                    text-align: center;
+                    margin: 22px 30px;
+                }
+            }
+        }
+    }
+}

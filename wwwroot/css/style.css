@@ -1,0 +1,167 @@
+body {
+  background-color: #11191f;
+  color: #525666;
+}
+
+.clear_fix {
+  float: none;
+  clear: both;
+}
+
+#musica, #descripcion div span, #descripcion div div, #box_album {
+  display: block;
+  float: left;
+}
+
+@keyframes btn_play {
+  0% {
+    margin: 20px auto;
+  }
+  100% {
+    margin: 0px auto;
+  }
+}
+#encabezado {
+  height: 80px;
+  color: #525666;
+  background-color: black;
+  margin-bottom: 3%;
+  text-align: left;
+  line-height: 80px;
+}
+#encabezado img {
+  width: 150px;
+  float: left;
+  line-height: 80px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+#encabezado strong {
+  margin-left: 10px;
+}
+#encabezado strong a {
+  text-decoration: none;
+  color: #525666;
+}
+
+#vacio {
+  width: 60%;
+  height: 150px;
+  background-color: #11191f;
+  margin: 10% auto;
+  box-shadow: 1px -3px 63px -6px #a71c1c;
+  -webkit-box-shadow: 1px -3px 63px -6px #a71c1c;
+  -moz-box-shadow: 1px -3px 63px -6px #a71c1c;
+  border: solid 1px #a71c1c;
+  border-radius: 10px;
+}
+#vacio div h3 {
+  text-align: center;
+  color: #525666;
+  margin: 5% 0px;
+}
+
+#box_album:hover {
+  background-color: #11191f;
+  color: #1ed760;
+  border: solid 1px #1ed760;
+  box-shadow: 1px -3px 63px -6px #1ed760;
+  -webkit-box-shadow: 1px -3px 63px -6px #1ed760;
+  -moz-box-shadow: 1px -3px 63px -6px #1ed760;
+}
+#box_album:hover div div #play {
+  display: block;
+  animation-name: btn_play;
+  animation-duration: 1000ms;
+}
+
+#box_album {
+  width: 20%;
+  height: 400px;
+  background-color: #11191f;
+  margin: 3% 6%;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  border: solid 1px white;
+}
+#box_album div div img {
+  width: 200px;
+  margin-bottom: 15px;
+}
+#box_album div div #play {
+  width: 80px;
+  height: 80px;
+  background-color: #1ed760;
+  margin: 0px auto;
+  display: none;
+  border-radius: 100%;
+}
+#box_album div div #play img {
+  width: 30px;
+  text-align: center;
+  margin: 22px 30px;
+}
+
+#buscador {
+  width: 50%;
+  margin: 10px auto 25px auto;
+}
+#buscador #textBox {
+  background-color: #11191f;
+  color: white;
+  border-radius: 60px;
+}
+#buscador #textBox:focus {
+  border: solid 1px #1ed760;
+  box-shadow: 1px -3px 63px -6px #1ed760;
+  -webkit-box-shadow: 1px -3px 63px -6px #1ed760;
+  -moz-box-shadow: 1px -3px 63px -6px #1ed760;
+}
+#buscador #button_buscar {
+  margin: 0px 10px;
+  width: 230px;
+  border-radius: 60px;
+}
+#buscador #button_buscar:hover {
+  box-shadow: 1px -3px 63px -6px #1ed760;
+  -webkit-box-shadow: 1px -3px 63px -6px #1ed760;
+  -moz-box-shadow: 1px -3px 63px -6px #1ed760;
+}
+
+#descripcion div div {
+  width: 30%;
+}
+#descripcion div div img {
+  width: 70%;
+  margin-left: 10%;
+}
+#descripcion div span {
+  width: 60%;
+  margin: 0px 5%;
+}
+#descripcion div #contenido #spotify {
+  width: 80px;
+  height: 80px;
+  background-color: #1ed760;
+  margin: 20px 50px;
+  border-radius: 100%;
+}
+#descripcion div #contenido #spotify img {
+  width: 30px;
+  text-align: center;
+  margin: 22px 30px;
+}
+
+#musica {
+  width: 96%;
+  margin: 10px 2%;
+}
+#musica #canciones {
+  border: none;
+  width: 100%;
+  margin: 0px auto;
+  color: #525666;
+}
+
+/*# sourceMappingURL=style.css.map */

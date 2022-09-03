@@ -1,0 +1,21 @@
+#buscador{
+    width: 50%;
+    margin: 10px auto 25px auto;
+    #textBox{
+        background-color: $color-principal;
+        color: white;
+        border-radius: 60px;
+    }
+    #textBox:focus{
+        border: solid 1px $color-spotify;
+        @include sombra($color-spotify);
+    }
+    #button_buscar{
+        margin: 0px 10px;
+        width: 230px;
+        border-radius: 60px;
+    }
+    #button_buscar:hover{
+        @include sombra($color-spotify);
+    }
+}
