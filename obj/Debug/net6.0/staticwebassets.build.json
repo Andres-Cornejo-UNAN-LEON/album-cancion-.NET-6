@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nw0RQrPo7rtPDTkHeazF5ddvmfpxW+/kzSW5uDoy9t0=",
+  "Hash": "Ao+gZVDN4qm7oacOm9K3Agkj7cqZbWYPUDZ28ufBbRA=",
   "Source": "Spotify_Album",
   "BasePath": "_content/Spotify_Album",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\SASS\\_descripcion.scss"
+    },
+    {
+      "Identity": "C:\\Users\\andre\\OneDrive\\Documents\\II Semestre - 4to año\\.Net v6\\Album de Spotify\\Spotify_Album\\wwwroot\\css\\SASS\\_layout.scss",
+      "SourceId": "Spotify_Album",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\andre\\OneDrive\\Documents\\II Semestre - 4to año\\.Net v6\\Album de Spotify\\Spotify_Album\\wwwroot\\",
+      "BasePath": "_content/Spotify_Album",
+      "RelativePath": "css/SASS/_layout.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\SASS\\_layout.scss"
     },
     {
       "Identity": "C:\\Users\\andre\\OneDrive\\Documents\\II Semestre - 4to año\\.Net v6\\Album de Spotify\\Spotify_Album\\wwwroot\\css\\SASS\\_main.scss",
